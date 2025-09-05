@@ -7,7 +7,7 @@ import StatsSection from '@/components/StatsSection';
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen font-light" style={{ fontFamily: "'IBM Plex Sans', 'Inter', sans-serif" }}>
       <Header />
       <HeroSection />
       <AboutSection />

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { newsPosts } from '@/data/news';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Container from '@/components/ui/Container';
 
 interface NewsPostPageProps {
   params: Promise<{ slug: string }>;
@@ -25,115 +26,72 @@ export default async function NewsPostPage({ params }: NewsPostPageProps) {
   return (
     <div className="min-h-screen">
       <Header />
-      
-      <main className="container mx-auto px-4 py-16">
-        <div className="max-w-4xl mx-auto">
-          {/* Breadcrumb */}
-          <nav className="mb-8">
-            <Link 
-              href="/news" 
-              className="text-blue-600 hover:text-blue-800 text-sm"
-            >
-              ← Back to News
-            </Link>
-          </nav>
-          
-          {/* Article Header */}
-          <header className="mb-8">
-            <div className="flex items-center gap-4 text-sm text-gray-600 mb-4">
-              <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">
-                {post.category}
-              </span>
-              <time dateTime={post.date}>
-                {new Date(post.date).toLocaleDateString('en-GB', {
+
+      {/* Hero Section with Background Image */}
+      <section
+        className="relative min-h-[300px] flex items-center bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `linear-gradient(135deg, rgba(30, 41, 59, 0.95) 0%, rgba(30, 41, 59, 0.85) 50%, rgba(20, 184, 166, 0.3) 100%), url('/PORTFOLIO hero.jpg')`
+        }}
+      >
+        <Container className="relative py-20">
+          <div className="max-w-4xl text-left">
+            <div className="max-w-3xl">
+              <div className="w-35 h-0.5 bg-green-700 mb-6"></div>
+              <h1 className="text-xl md:text-3xl lg:text-3xl font-light text-white leading-relaxed">
+                Latest news and insights from <span className="font-bold">Lincolnshire Management</span>
+              </h1>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      <main className="bg-white">
+        <Container className="py-16">
+          <div className="max-w-8xl mx-auto">
+            {/* Article Header */}
+            <header className="mb-12">
+              <div className="w-16 h-0.5 bg-teal-600 mb-6"></div>
+
+              <h1 className="text-4xl md:text-5xl font-light text-gray-800 mb-6 leading-tight">
+                {post.title.toUpperCase()}
+              </h1>
+
+              <div className="text-lg text-gray-600 mb-8">
+                {new Date(post.date).toLocaleDateString('en-US', {
                   year: 'numeric',
-                  month: 'long',
+                  month: 'short',
                   day: 'numeric'
                 })}
-              </time>
-              <span>By {post.author}</span>
-            </div>
-            
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              {post.title}
-            </h1>
-            
-            <p className="text-xl text-gray-600 leading-relaxed">
-              {post.excerpt}
-            </p>
-          </header>
-          
-          {/* Featured Image */}
-          {post.image && (
-            <div className="mb-8 rounded-lg overflow-hidden">
-              <img 
-                src={post.image} 
-                alt={post.title}
-                className="w-full h-64 md:h-96 object-cover"
-              />
-            </div>
-          )}
-          
-          {/* Article Content */}
-          <article className="prose prose-lg max-w-none">
-            <div 
-              dangerouslySetInnerHTML={{ __html: post.content }}
-              className="text-gray-700 leading-relaxed"
-            />
-          </article>
-          
-          {/* Tags */}
-          <div className="mt-8 pt-8 border-t border-gray-200">
-            <h3 className="text-sm font-semibold text-gray-900 mb-3">Tags:</h3>
-            <div className="flex flex-wrap gap-2">
-              {post.tags.map((tag) => (
-                <span 
-                  key={tag}
-                  className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm"
-                >
-                  #{tag}
-                </span>
-              ))}
-            </div>
+              </div>
+            </header>
+
+            {/* Article Content */}
+            <article className="max-w-none">
+              <div className="text-gray-700 leading-relaxed">
+                {/* Excerpt */}
+
+                {/* Main Content with proper HTML styling */}
+                <div
+                  dangerouslySetInnerHTML={{ __html: post.content }}
+                  className="prose prose-lg max-w-none
+                    [&>h2]:text-2xl [&>h2]:font-semibold [&>h2]:text-gray-800 [&>h2]:mt-8 [&>h2]:mb-4
+                    [&>h3]:text-xl [&>h3]:font-semibold [&>h3]:text-gray-800 [&>h3]:mt-6 [&>h3]:mb-3
+                    [&>p]:text-gray-700 [&>p]:leading-relaxed [&>p]:mb-6 [&>p]:text-lg
+                    [&>ul]:list-disc [&>ul]:pl-6 [&>ul]:mb-6
+                    [&>ol]:list-decimal [&>ol]:pl-6 [&>ol]:mb-6
+                    [&>li]:mb-2
+                    [&>blockquote]:border-l-4 [&>blockquote]:border-teal-600 [&>blockquote]:pl-4 [&>blockquote]:italic [&>blockquote]:text-gray-600
+                    [&>strong]:font-semibold [&>strong]:text-gray-800
+                    [&>em]:italic
+                    [&>a]:text-teal-600 [&>a]:hover:text-teal-800 [&>a]:underline"
+                />
+              </div>
+            </article>
           </div>
-          
-          {/* Related Posts */}
-          <div className="mt-12 pt-8 border-t border-gray-200">
-            <h3 className="text-xl font-semibold text-gray-900 mb-6">More Articles</h3>
-            <div className="grid gap-6 md:grid-cols-2">
-              {newsPosts
-                .filter((p) => p.id !== post.id)
-                .slice(0, 2)
-                .map((relatedPost) => (
-                  <Link 
-                    key={relatedPost.id}
-                    href={`/news/${relatedPost.id}`}
-                    className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
-                  >
-                    {relatedPost.image && (
-                      <div className="aspect-video overflow-hidden">
-                        <img 
-                          src={relatedPost.image} 
-                          alt={relatedPost.title}
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                    )}
-                    <div className="p-4">
-                      <h4 className="font-semibold text-gray-900 mb-2">
-                        {relatedPost.title}
-                      </h4>
-                      <p className="text-gray-600 text-sm line-clamp-2">
-                        {relatedPost.excerpt}
-                      </p>
-                    </div>
-                  </Link>
-                ))}
-            </div>
-          </div>
-        </div>
+        </Container>
       </main>
-      
+
       <Footer />
     </div>
   );

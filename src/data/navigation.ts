@@ -1,16 +1,16 @@
 export const navigationData = {
   main: [
-    { name: 'HOME', href: '/', current: true },
-    { name: 'ABOUT US', href: '/about', current: false },
+    { name: 'ABOUT', href: '/about', current: false },
+    { name: 'LEADERSHIP', href: '/leadership', current: false },
     { name: 'PORTFOLIO', href: '/portfolio', current: false },
     { name: 'NEWS', href: '/news', current: false },
     { name: 'CONTACT', href: '/contact', current: false }
   ],
-  
+
   footer: {
     links: [
-      { name: 'Home', href: '/' },
-      { name: 'About Us', href: '/about' },
+      { name: 'About', href: '/about' },
+      { name: 'Leadership', href: '/leadership' },
       { name: 'Portfolio', href: '/portfolio' },
       { name: 'News', href: '/news' },
       { name: 'Contact', href: '/contact' }

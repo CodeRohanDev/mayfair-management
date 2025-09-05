@@ -1,11 +1,11 @@
 export const companyData = {
-  name: "Lincolnshire",
-  fullName: "Lincolnshire Management",
+  name: "MayFair",
+  fullName: "MayFair Management",
   tagline: "Private Equity Excellence",
   description: "Lincolnshire Management is a private equity firm with a focus on the mid-market, operating successfully investing in companies across the lower middle market.",
   
   contact: {
-    company: "Lincolnshire Management Inc.",
+    company: "MayFair Management Inc.",
     city: "New York, New York",
     country: "United States",
     email: "info@lincolnshiremgmt.com",
@@ -15,6 +15,7 @@ export const companyData = {
   social: {
     twitter: "https://twitter.com/lincolnshiremgmt",
     linkedin: "https://linkedin.com/company/lincolnshire-management",
+    instagram: "https://instagram.com/mayfairinc",
     website: "https://www.lincolnshiremgmt.com"
   },
   

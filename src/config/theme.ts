@@ -43,13 +43,20 @@ export const theme = {
   },
   typography: {
     fontFamily: {
-      primary: "'Inter', sans-serif",
-      secondary: "'Inter', sans-serif"
+      primary: "'IBM Plex Sans', 'Inter', sans-serif",
+      secondary: "'IBM Plex Sans', 'Inter', sans-serif"
+    },
+    fontWeight: {
+      light: '300',
+      normal: '400',
+      medium: '500',
+      semibold: '600',
+      bold: '700'
     },
     fontSize: {
       hero: {
         mobile: 'text-3xl',
-        tablet: 'text-4xl', 
+        tablet: 'text-4xl',
         desktop: 'text-5xl'
       },
       section: 'text-3xl',

@@ -1,4 +1,4 @@
-import { BlogPost } from '@/data/blogs';
+import { NewsPost } from '@/data/news';
 
 export function createBlogPost(
   id: string,
@@ -9,7 +9,7 @@ export function createBlogPost(
   category: string = "News",
   tags: string[] = [],
   image?: string
-): BlogPost {
+): NewsPost {
   return {
     id,
     title,
