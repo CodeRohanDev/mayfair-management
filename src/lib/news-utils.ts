@@ -5,7 +5,7 @@ export function createBlogPost(
   title: string,
   excerpt: string,
   content: string,
-  author: string = "Lincolnshire Team",
+  author: string = "MayFair Team",
   category: string = "News",
   tags: string[] = [],
   image?: string

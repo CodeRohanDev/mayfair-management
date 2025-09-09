@@ -1,28 +1,28 @@
 export const theme = {
   colors: {
     primary: {
-      50: '#f0fdfa',
-      100: '#ccfbf1',
-      200: '#99f6e4',
-      300: '#5eead4',
-      400: '#2dd4bf', // Main teal
-      500: '#14b8a6',
-      600: '#0d9488',
-      700: '#0f766e',
-      800: '#115e59',
-      900: '#134e4a',
+      50: '#f0f4f8',
+      100: '#d9e6f2',
+      200: '#b3cce6',
+      300: '#8db3d9',
+      400: '#6699cc',
+      500: '#4080bf', // Lighter shade of main color
+      600: '#1a2f4f', // Slightly lighter than main
+      700: '#0a1b2f', // Main color
+      800: '#08172a',
+      900: '#061324',
     },
     secondary: {
-      50: '#f8fafc',
-      100: '#f1f5f9',
-      200: '#e2e8f0',
-      300: '#cbd5e1',
-      400: '#94a3b8',
-      500: '#64748b',
-      600: '#475569',
-      700: '#334155',
-      800: '#1e293b', // Main slate
-      900: '#0f172a',
+      50: '#f0f4f8',
+      100: '#d9e6f2',
+      200: '#b3cce6',
+      300: '#8db3d9',
+      400: '#6699cc',
+      500: '#4080bf',
+      600: '#1a2f4f',
+      700: '#0a1b2f', // Main color for secondary as well
+      800: '#08172a',
+      900: '#061324',
     },
     neutral: {
       50: '#fafafa',
@@ -38,8 +38,8 @@ export const theme = {
     }
   },
   gradients: {
-    hero: 'from-slate-800 via-slate-700 to-teal-400',
-    heroOverlay: 'bg-black bg-opacity-30'
+    hero: 'from-[#0a1b2f] via-[#1a2f4f] to-[#4080bf]',
+    heroOverlay: 'bg-[#0a1b2f] bg-opacity-80'
   },
   typography: {
     fontFamily: {

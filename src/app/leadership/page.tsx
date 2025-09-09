@@ -32,15 +32,7 @@ export default function LeadershipPage() {
         <TeamSection
           title={leadershipData.sections.seniorOperatingPartners.title}
           members={leadershipData.sections.seniorOperatingPartners.members}
-          columns={2}
-        />
-      </div>
-
-      <div className="bg-gray-50">
-        <TeamSection
-          title={leadershipData.sections.seniorAdvisors.title}
-          members={leadershipData.sections.seniorAdvisors.members}
-          columns={4}
+          columns={5}
         />
       </div>
 

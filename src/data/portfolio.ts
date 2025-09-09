@@ -90,29 +90,29 @@ export const portfolioData = {
 
   testimonials: {
     title: "TESTIMONIALS",
-    subtitle: "What our partners say about working with Lincolnshire Management",
+    subtitle: "What our partners say about working with MayFair Management",
     quotes: [
       {
         id: 1,
-        text: "The team at Lincolnshire has the in-house operational expertise, determination and competitive drive to assist management teams in turning around businesses when they get off track. They do it very successfully.",
+        text: "The team at MayFair has the in-house operational expertise, determination and competitive drive to assist management teams in turning around businesses when they get off track. They do it very successfully.",
         author: "Dave Rapley",
         company: "CEO, Aerosim Technologies"
       },
       {
         id: 2,
-        text: "Lincolnshire Management's strategic guidance and industry expertise have been instrumental in our company's growth and success. Their hands-on approach and deep understanding of our market made all the difference.",
+        text: "MayFair Management's strategic guidance and industry expertise have been instrumental in our company's growth and success. Their hands-on approach and deep understanding of our market made all the difference.",
         author: "Sarah Johnson",
         company: "CEO, MedTech Innovations"
       },
       {
         id: 3,
-        text: "Working with Lincolnshire has been transformative for our business. Their operational expertise and network of industry contacts helped us scale faster than we ever imagined possible.",
+        text: "Working with MayFair has been transformative for our business. Their operational expertise and network of industry contacts helped us scale faster than we ever imagined possible.",
         author: "Michael Chen",
         company: "Founder, CloudTech Solutions"
       },
       {
         id: 4,
-        text: "The partnership with Lincolnshire Management brought not just capital, but invaluable strategic insights that helped us navigate complex market challenges and emerge stronger.",
+        text: "The partnership with MayFair Management brought not just capital, but invaluable strategic insights that helped us navigate complex market challenges and emerge stronger.",
         author: "Jennifer Martinez",
         company: "President, Green Energy Systems"
       }

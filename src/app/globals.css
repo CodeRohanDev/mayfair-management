@@ -4,7 +4,10 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0a1b2f;
+  --primary: #0a1b2f;
+  --primary-light: #4080bf;
+  --primary-lighter: #6699cc;
 }
 
 @theme inline {
@@ -16,7 +19,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #0a1b2f;
     --foreground: #ededed;
   }
 }
@@ -26,4 +29,28 @@ body {
   color: var(--foreground);
   font-family: 'IBM Plex Sans', 'Inter', sans-serif;
   font-weight: 300; /* IBM Plex Sans Light */
+  overflow-x: hidden;
+}
+
+/* Custom animations for OurFundsSection divider bars */
+@keyframes slideInLeft {
+  0% {
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
 }

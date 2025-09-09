@@ -1,13 +1,13 @@
-# Lincolnshire Management Website
+# MayFair Management Website
 
-A professional, static website replica of the Lincolnshire Management homepage built with Next.js and Tailwind CSS. Features a modular architecture with centralized configuration for easy customization and maintenance.
+A professional, static website replica of the MayFair Management homepage built with Next.js and Tailwind CSS. Features a modular architecture with centralized configuration for easy customization and maintenance.
 
 ## 🚀 Features
 
 - **Responsive Design**: Fully responsive layout that works on all devices
 - **Modern Stack**: Built with Next.js 15, React 19, and Tailwind CSS 4
 - **Static Export**: Generates static HTML files for easy deployment
-- **Professional Design**: Matches the original Lincolnshire Management website design
+- **Professional Design**: Matches the original MayFair Management website design
 - **Modular Architecture**: Well-organized components and data structure
 - **Theme System**: Centralized color and typography configuration
 - **SEO Optimized**: Proper meta tags and structured data

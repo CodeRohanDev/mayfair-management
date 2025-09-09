@@ -58,7 +58,7 @@ export default function PortfolioShowcaseSection() {
       <Container>
         <div className="max-w-6xl mx-auto py-4 md:py-20 px-4 md:px-0">
           {/* Portfolio Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6 mb-6 md:mb-13 relative">
+          <div className="grid grid-cols-4 gap-2 md:gap-6 mb-6 md:mb-13 relative">
             {portfolioCompanies.map((company) => (
               <div
                 key={company.id}
@@ -66,7 +66,7 @@ export default function PortfolioShowcaseSection() {
                   }`}
                 onClick={() => handleCardClick(company.id)}
               >
-                <div className="aspect-[4/3] md:aspect-[4/3] bg-gray-200 relative overflow-hidden rounded-lg md:rounded-none">
+                <div className="aspect-[4/3] bg-gray-200 relative overflow-hidden">
                   <img
                     src={company.image}
                     alt={company.name}
@@ -80,8 +80,8 @@ export default function PortfolioShowcaseSection() {
                   />
                   {/* Overlay with company name */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end">
-                    <div className="p-2 md:p-4 text-white w-full">
-                      <h3 className="text-xs md:text-lg font-semibold leading-tight">{company.name}</h3>
+                    <div className="p-1 md:p-4 text-white w-full">
+                      <h3 className="text-[10px] sm:text-xs md:text-lg font-semibold leading-tight">{company.name}</h3>
                     </div>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ export default function PortfolioShowcaseSection() {
 
           {/* Expandable Detail Section */}
           {selectedCompanyData && (
-            <div className="bg-[#efefef] shadow-lg overflow-hidden animate-in slide-in-from-top duration-300 rounded-lg md:rounded-none mx-2 md:mx-0">
+            <div className="bg-[#efefef] shadow-lg overflow-hidden animate-in slide-in-from-top duration-300 mx-2 md:mx-0">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
                 {/* Detail Image - Show first on mobile */}
                 <div className="relative order-1 lg:order-2">

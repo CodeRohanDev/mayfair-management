@@ -35,11 +35,11 @@ export default function TestimonialsSection() {
     <section className="py-20 bg-gray-100">
       <Container>
         <div className={`flex items-center justify-center mb-16 `}>
-          <div className="flex-1 h-0.5 bg-purple-900"></div>
+           <div className="flex-1 h-0.5 bg-purple-900 animate-[slideInLeft_1s_ease-in-out]"></div>
           <h2 className="text-5xl font-light text-purple-900 text-left mx-8 tracking-wider">
             TESTIMONIALS
           </h2>
-          <div className="flex-1 h-0.5 bg-purple-900"></div>
+          <div className="flex-1 h-0.5 bg-purple-900 animate-[slideInRight_1s_ease-in-out]"></div>
         </div>
 
         <div className="max-w-6xl mx-auto relative">

@@ -14,12 +14,21 @@ export default function Section({
 }: SectionProps) {
   const backgroundClasses = {
     white: 'bg-white',
-    dark: 'bg-slate-800',
+    dark: '',
     gradient: `bg-gradient-to-r ${theme.gradients.hero}`
+  };
+  
+  const backgroundStyles = {
+    white: {},
+    dark: { backgroundColor: '#0a1b2f' },
+    gradient: {}
   };
 
   return (
-    <section className={`${theme.spacing.section} ${backgroundClasses[background]} ${className}`}>
+    <section 
+      className={`${theme.spacing.section} ${backgroundClasses[background]} ${className}`}
+      style={backgroundStyles[background]}
+    >
       {children}
     </section>
   );

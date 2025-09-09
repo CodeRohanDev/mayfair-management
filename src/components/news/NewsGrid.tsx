@@ -7,8 +7,7 @@ interface NewsGridProps {
 }
 
 export default function NewsGrid({ posts }: NewsGridProps) {
-    const featuredPost = posts[0];
-    const otherPosts = posts.slice(1);
+    const otherPosts = posts;
 
     return (
         <section className="py-16 bg-white">

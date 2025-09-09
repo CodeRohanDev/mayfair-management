@@ -30,23 +30,24 @@ export default function AllInvestmentsSection() {
   };
 
   return (
-    <section className="py-20" style={{ backgroundColor: '#00a887' }}>
+    <section className="py-20" style={{ backgroundColor: '#0a1b2f' }}>
       <Container>
         {/* Header */}
         <div className="flex items-center justify-center mb-16">
-          <div className="flex-1 h-0.5 bg-white"></div>
+           <div className="flex-1 h-0.5 bg-white animate-[slideInLeft_1s_ease-in-out]"></div>
           <h2 className="text-5xl font-light text-white text-center mx-8 tracking-wider">
             ALL INVESTMENTS
           </h2>
-          <div className="flex-1 h-0.5 bg-white"></div>
+         <div className="flex-1 h-0.5 bg-white animate-[slideInRight_1s_ease-in-out]"></div>
         </div>
 
         {/* Filter Buttons */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12 max-w-4xl mx-auto">
           <button
             onClick={() => setFilter('realized')}
-            className={`px-6 py-3 bg-white text-teal-700 font-medium rounded-sm transition-colors duration-200 flex items-center justify-center ${filter === 'realized' ? 'ring-2 ring-white' : ''
+            className={`px-6 py-3 bg-white font-medium rounded-sm transition-colors duration-200 flex items-center justify-center ${filter === 'realized' ? 'ring-2 ring-white' : ''
               }`}
+            style={{ color: '#0a1b2f' }}
           >
             Realized
             <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -56,8 +57,9 @@ export default function AllInvestmentsSection() {
 
           <button
             onClick={() => setSortBy(sortBy === 'name' ? 'fund' : 'name')}
-            className={`px-6 py-3 bg-white text-teal-700 font-medium rounded-sm transition-colors duration-200 flex items-center justify-center ${sortBy === 'fund' ? 'ring-2 ring-white' : ''
+            className={`px-6 py-3 bg-white font-medium rounded-sm transition-colors duration-200 flex items-center justify-center ${sortBy === 'fund' ? 'ring-2 ring-white' : ''
               }`}
+            style={{ color: '#0a1b2f' }}
           >
             Sort by Fund
             <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -21,7 +21,7 @@ export const leadershipData = {
   },
 
   description: {
-    text: "The diverse backgrounds of each member of the team brings a unique value-add to every investment, and the firm’s executives understand how to compliment and build upon on one another’s strengths to create the best outcomes for the firm’s portfolio companies, partners, and investors. Lincolnshire Management creates teams that truly understand how to provide the support and resources companies need to grow, how to align the interests of various stakeholders, and how to deliver lasting strategic value."
+    text: "The diverse backgrounds of each member of the team brings a unique value-add to every investment, and the firm’s executives understand how to compliment and build upon on one another’s strengths to create the best outcomes for the firm’s portfolio companies, partners, and investors. MayFair Management creates teams that truly understand how to provide the support and resources companies need to grow, how to align the interests of various stakeholders, and how to deliver lasting strategic value."
   },
 
   sections: {
@@ -30,47 +30,47 @@ export const leadershipData = {
       members: [
         {
           id: "1",
-          name: "Philip Kim",
-          title: "Managing Partner",
-          image: "/team/philKim.jpg",
-          description: "Philip Kim is a Co-Managing Partner at Lincolnshire and a member of the Investment Committee. He also heads one of the two deal execution teams. In connection with his responsibilities at Lincolnshire, Phil holds or has held positions as a Director and/or Officer at various portfolio companies including Remedi8, Schumacher, Powerhouse, AMPORTS, Holley Performance Products, True Temper Sports, DHI Energy Service, Nursery Supplies and Desch Plantpak. His experience at Lincolnshire has involved a number of operational situations including extensive restructurings of companies through business and economic cycles, most notably with Wabash National, True Temper Sports, DHI Energy Service and Nursery Supplies. Prior to joining Lincolnshire in 2003, Phil was an Associate at Knickerbocker LLC, a private investment management firm, where he was primarily involved in the execution and management of alternative investments. He started his career as an Analyst at Fortress Investment Group LLC.",
+          name: "Jane Decker",
+          title: "Senior Partner",
+          image: "/team/Jane.jpg",
+          description: "Jane Decker is a Senior Partner at MayFair, recognized for her strategic leadership and deep expertise in private equity. She has played a pivotal role in driving the firm's growth, overseeing major investments, and mentoring the next generation of investment professionals. Jane is known for her collaborative approach, strong analytical skills, and commitment to delivering value for portfolio companies and investors.",
+          boardPositions: ["HealthTech Solutions", "MedDevice Inc"],
+          dealWork: "Mike's deal experience includes healthcare and technology investments across multiple portfolio companies, with a focus on value creation and operational improvements."
+        },
+        {
+          id: "2",
+          name: "Jeena Henry",
+          title: "Partner",
+          image: "/team/jeena.jpg",
+          description: "Jeena Henry is a Partner at MayFair, known for her leadership in driving operational excellence and strategic growth across the firm’s portfolio. She brings deep experience in private equity, with a focus on value creation, process improvement, and building high-performing teams. Jeena is recognized for her collaborative approach and her ability to deliver results in complex, fast-paced environments.",
+          boardPositions: ["Board Member at Industrial Partners", "Advisory Board at Manufacturing Excellence"]
+        },
+        {
+          id: "3",
+          name: "Diana Grace DuPont",
+          title: "Vice President of Business",
+          image: "/team/Diana Grace Dupont.jpg",
+          description: "Diana Grace DuPont is the Vice President of Operations and a member of the Board of Directors at MayFair. She brings a wealth of operational expertise and leadership to the firm, overseeing key initiatives and supporting the growth and success of portfolio companies. Diana is known for her collaborative approach and her ability to drive strategic value across diverse teams and industries.",
           bio: "Phil is a graduate of Harvard University, and his passions include the performing arts. He studied viola and composition at Juilliard Pre-College, and continued performing and writing classical music at Harvard, where he received his A.B. in Economics.",
           boardPositions: ["Remedi8", "Schumacher", "Powerhouse", "AMPORTS", "Holley Performance Products", "True Temper Sports", "DHI Energy Service", "Nursery Supplies", "Desch Plantpak"],
           dealWork: "Phil's deal experience includes Remedi8, Schumacher, Powerhouse, AMPORTS, Holley Performance Products, True Temper Sports, Wabash National, DHI Energy Service, Nursery Supplies and Desch Plantpak."
         },
         {
-          id: "2",
-          name: "Mike Lyons",
-          title: "Senior Partner",
-          image: "/team/mikeLyons.jpg",
-          description: "Michael focuses on healthcare and technology investments, leading due diligence and post-investment value creation initiatives.",
-          boardPositions: ["HealthTech Solutions", "MedDevice Inc"],
-          dealWork: "Mike's deal experience includes healthcare and technology investments across multiple portfolio companies, with a focus on value creation and operational improvements."
-        },
-        {
-          id: "3",
-          name: "George Henry",
-          title: "Partner",
-          image: "/team/georgeHenry.jpg",
-          description: "Robert specializes in manufacturing and industrial investments, with expertise in operational improvements and strategic growth.",
-          boardPositions: ["Board Member at Industrial Partners", "Advisory Board at Manufacturing Excellence"]
-        },
-        {
           id: "4",
-          name: "TJ Maloney",
+          name: "Malone Easley",
           title: "Principal",
-          image: "/team/TJ_Maloney.jpg",
-          description: "David leads investment analysis and market research, with a focus on emerging growth opportunities in technology and consumer sectors.",
+          image: "/team/malone.jpg",
+          description: "Malone Easley is a Principal at MayFair, where he is responsible for leading investment analysis, due diligence, and market research across a range of sectors. He specializes in identifying and evaluating emerging growth opportunities, particularly within the technology and consumer industries. Malone is recognized for his analytical rigor, strategic insight, and collaborative approach to driving value for portfolio companies and investors.",
           boardPositions: ["Board Observer at Growth Ventures", "Advisory Board at StartupTech"]
         },
-        {
-          id: "5",
-          name: "Nedeau",
-          title: "Vice President",
-          image: "/team/Nedeau.jpg",
-          description: "James manages portfolio company relationships and supports business development initiatives across multiple industry verticals.",
-          boardPositions: ["Board Member at Consumer Brands Co", "Advisory Board at Retail Solutions"]
-        }
+        // {
+        //   id: "5",
+        //   name: "Morgan Sheppard",
+        //   title: "Vice President",
+        //   image: "/team/morgan.jpg",
+        //   description: "Morgan Sheppard is a Vice President at MayFair, where she manages portfolio company relationships and supports business development initiatives across multiple industry verticals. She is known for her strong analytical skills, collaborative approach, and ability to drive value for both the firm and its portfolio companies. Morgan brings a wealth of experience in private equity and is dedicated to fostering growth and operational excellence.",
+        //   boardPositions: ["Board Member at Consumer Brands Co", "Advisory Board at Retail Solutions"]
+        // }
       ]
     },
 
@@ -78,12 +78,12 @@ export const leadershipData = {
       title: "INVESTOR RELATIONS",
       members: [
         {
-          id: "betsy-corbin",
-          name: "Betsy Corbin",
-          title: "Investor Relations and Sustainability Officer",
-          image: "/team/betsy-corbin.jpg",
-          description: "Betsy Corbin is the Investor Relations and Marketing Director at Lincolnshire. She also serves as the firm's Sustainability Officer focused on the adherence to ESG criteria.",
-          bio: "Betsy Corbin is the Investor Relations and Marketing Director at Lincolnshire. She also serves as the firm's Sustainability Officer focused on the adherence to ESG criteria. Lincolnshire was motivated to clearly communicate their commitment to Environmental, Social and Governance (ESG) and create a policy in line with what has already been practiced at the firm. Working with the Lincolnshire team and portfolio companies, Betsy developed Lincolnshire's ESG Policy. Together with the team at Lincolnshire, she continually looks for ways for Lincolnshire and the portfolio to uphold ESG best practices. Prior to joining Lincolnshire in 2015, Betsy worked at the New York location of the Garda Patent Gallery (Santa Fe, NM) as assistant to the Director and as a Sales Associate. Betsy holds a BA from Wheaton College. Betsy can be found on the weekends visiting favorite museum collections in New York or enjoying Central Park, of which she is a member of the Central Park Conservancy.",
+          id: "marguerite-milica",
+          name: "Marguerite Milica",
+          title: "Strategy Consultant",
+          image: "/team/marguerite milica.jpg",
+          description: "Marguerite Milica is a Senior Consultant at MayFair, specializing in investor relations and client communications. She brings extensive experience in private equity and financial services, supporting the firm's investor engagement, reporting, and relationship management efforts. Marguerite is known for her attention to detail, professionalism, and commitment to delivering exceptional service to investors.",
+          bio: "Betsy Corbin is the Investor Relations and Marketing Director at MayFair. She also serves as the firm's Sustainability Officer focused on the adherence to ESG criteria. MayFair was motivated to clearly communicate their commitment to Environmental, Social and Governance (ESG) and create a policy in line with what has already been practiced at the firm. Working with the MayFair team and portfolio companies, Betsy developed MayFair's ESG Policy. Together with the team at MayFair, she continually looks for ways for MayFair and the portfolio to uphold ESG best practices. Prior to joining MayFair in 2015, Betsy worked at the New York location of the Garda Patent Gallery (Santa Fe, NM) as assistant to the Director and as a Sales Associate. Betsy holds a BA from Wheaton College. Betsy can be found on the weekends visiting favorite museum collections in New York or enjoying Central Park, of which she is a member of the Central Park Conservancy.",
           dealWork: "Betsy's work focuses on investor relations, marketing initiatives, and ESG policy development across all portfolio companies and investment activities."
         }
       ]
@@ -92,98 +92,70 @@ export const leadershipData = {
     investmentProfessionals: {
       title: "INVESTMENT PROFESSIONALS",
       members: [
+        
         {
           id: "6",
-          name: "Sarah Miller",
-          title: "Senior Associate",
-          image: "/team/member6.jpg",
-          description: "Sarah conducts financial analysis and market research for potential investments, specializing in healthcare and life sciences sectors.",
-          boardPositions: ["Board Observer at BioTech Innovations"]
+          name: "Johans Gustavsson",
+          title: "Associate",
+          image: "/team/johans.jpg"
         },
         {
           id: "7",
-          name: "Jennifer Garcia",
-          title: "Associate",
-          image: "/team/member7.jpg"
+          name: "Marguerite Milica",
+          title: "Strategy Consultant",
+          image: "/team/Marguerite Milica.jpg",
+          description: "Marguerite Milica is a Senior Consultant at MayFair, specializing in investor relations and client communications. She brings extensive experience in private equity and financial services, supporting the firm's investor engagement, reporting, and relationship management efforts. Marguerite is known for her attention to detail, professionalism, and commitment to delivering exceptional service to investors.",
+          boardPositions: ["Board Observer at BioTech Innovations"]
         },
         {
           id: "8",
-          name: "Lisa Rodriguez",
+          name: "Nick Granata",
           title: "Analyst",
-          image: "/team/member8.jpg"
+          image: "/team/nick.jpg"
         },
         {
           id: "9",
-          name: "Amanda Martinez",
+          name: "Operano A.G.",
           title: "Investment Associate",
-          image: "/team/member9.jpg"
+          image: "/team/operano.jpg"
         },
         {
           id: "10",
-          name: "Michelle Anderson",
+          name: "Salen Anderson",
           title: "Research Analyst",
-          image: "/team/member10.jpg"
+          image: "/team/salen.jpg"
         },
         {
           id: "11",
-          name: "Jessica Taylor",
-          title: "Investment Analyst",
-          image: "/team/member11.jpg"
+          name: "Jack Anno",
+          title: "Research Analyst",
+          image: "/team/jack.jpg"
         },
         {
           id: "12",
-          name: "Ashley Thomas",
-          title: "Junior Analyst",
-          image: "/team/member12.jpg"
+          name: "Justin Hall",
+          title: "Research Analyst",
+          image: "/team/justin.jpg"
         },
         {
           id: "13",
-          name: "Nicole Jackson",
-          title: "Associate",
-          image: "/team/member13.jpg"
+          name: "Bryce Smith",
+          title: "Research Analyst",
+          image: "/team/bryce.jpg"
         },
         {
           id: "14",
-          name: "Stephanie White",
-          title: "Senior Analyst",
-          image: "/team/member14.jpg"
+          name: "Clay Hogue",
+          title: "Research Analyst",
+          image: "/team/clay.jpg"
         },
         {
           id: "15",
-          name: "Rachel Harris",
-          title: "Investment Professional",
-          image: "/team/member15.jpg"
+          name: "Tony Rago",
+          title: "Research Analyst",
+          image: "/team/tony.jpg"
         },
-        {
-          id: "16",
-          name: "Michael Chen",
-          title: "Portfolio Manager",
-          image: "/team/member16.jpg"
-        },
-        {
-          id: "17",
-          name: "David Kim",
-          title: "Investment Director",
-          image: "/team/member17.jpg"
-        },
-        {
-          id: "18",
-          name: "Emily Watson",
-          title: "Senior Analyst",
-          image: "/team/member18.jpg"
-        },
-        {
-          id: "19",
-          name: "Robert Johnson",
-          title: "Associate Director",
-          image: "/team/member19.jpg"
-        },
-        {
-          id: "20",
-          name: "Lisa Chang",
-          title: "Investment Associate",
-          image: "/team/member20.jpg"
-        }
+        
       ]
     },
 
@@ -192,15 +164,15 @@ export const leadershipData = {
       members: [
         {
           id: "21",
-          name: "Mark Thompson",
-          title: "Senior Operating Partner",
-          image: "/team/member21.jpg"
+          name: "Serena Grace Monroe",
+          title: "Chief Operating Officer",
+          image: "/team/Serena Grace Monroe.jpg"
         },
         {
           id: "22",
-          name: "Steven Clark",
+          name: "TJ Maloney",
           title: "Operating Partner",
-          image: "/team/member22.jpg"
+          image: "/team/TJ_Maloney.jpg"
         }
       ]
     },
@@ -210,9 +182,9 @@ export const leadershipData = {
       members: [
         {
           id: "23",
-          name: "Charles Lewis",
-          title: "Senior Advisor",
-          image: "/team/member23.jpg"
+          name: "Serena Grace Monroe",
+          title: "Chief Operating Officer",
+          image: "/team/Serena Grace Monroe.jpg"
         },
         {
           id: "24",

@@ -1,5 +1,4 @@
 import { notFound } from 'next/navigation';
-import Link from 'next/link';
 import { newsPosts } from '@/data/news';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -39,7 +38,7 @@ export default async function NewsPostPage({ params }: NewsPostPageProps) {
             <div className="max-w-3xl">
               <div className="w-35 h-0.5 bg-green-700 mb-6"></div>
               <h1 className="text-xl md:text-3xl lg:text-3xl font-light text-white leading-relaxed">
-                Latest news and insights from <span className="font-bold">Lincolnshire Management</span>
+                Latest news and insights from <span className="font-bold">MayFair Management</span>
               </h1>
             </div>
           </div>

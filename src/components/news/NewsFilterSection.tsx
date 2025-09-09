@@ -21,24 +21,29 @@ export default function NewsFilterSection({ onFilterChange, activeFilter }: News
                 <div className="text-center">
                     {/* IN THE NEWS heading with decorative lines */}
                     <div className={`flex items-center justify-center mb-16 `}>
-                        <div className="flex-1 h-0.5 bg-purple-900"></div>
+                         <div className="flex-1 h-0.5 bg-purple-900 animate-[slideInLeft_1s_ease-in-out]"></div>
                         <h2 className="text-5xl font-light text-purple-900 text-center mx-8 tracking-wider">
                             IN THE NEWS
                         </h2>
-                        <div className="flex-1 h-0.5 bg-purple-900"></div>
+                        <div className="flex-1 h-0.5 bg-purple-900 animate-[slideInRight_1s_ease-in-out]"></div>
                     </div>
 
                     {/* Filter buttons */}
-                    <div className="flex flex-wrap justify-between gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
                         {filters.map((filter) => (
                             <button
                                 key={filter.id}
                                 onClick={() => onFilterChange(filter.id)}
-                                className="bg-teal-600 text-white px-18 py-2 font-medium transition-all duration-300 hover:bg-teal-700 flex gap-2"
-                                style={{ minWidth: '200px' }}
+                                className={`
+                                    px-6 py-3 font-medium transition-all duration-300 flex items-center justify-center gap-2 text-sm
+                                    ${activeFilter === filter.id 
+                                        ? 'bg-teal-700 text-white shadow-lg' 
+                                        : 'bg-teal-600 text-white hover:bg-teal-700'
+                                    }
+                                `}
                             >
                                 <span className="text-sm">📄</span>
-                                {filter.label}
+                                <span className="whitespace-nowrap">{filter.label}</span>
                             </button>
                         ))}
                     </div>

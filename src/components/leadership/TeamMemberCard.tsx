@@ -47,17 +47,17 @@ export default function TeamMemberCard({ member }: TeamMemberCardProps) {
         )}
         
         {/* Member info section */}
-        <div className="p-6 bg-gray-50">
+        <div className="p-3 md:p-6 bg-gray-50">
           {/* Teal accent line */}
-          <div className="w-16 h-0.5 bg-teal-500 mb-4"></div>
+          <div className="w-12 md:w-16 h-0.5 bg-teal-500 mb-2 md:mb-4"></div>
           
           {/* Name */}
-          <h3 className="text-lg font-normal text-gray-700 mb-2 leading-tight">
+          <h3 className="text-sm md:text-lg font-normal text-gray-700 mb-1 md:mb-2 leading-tight">
             {member.name}
           </h3>
           
           {/* Title */}
-          <p className="text-sm font-semibold text-gray-800 uppercase tracking-wide leading-tight mb-3">
+          <p className="text-xs md:text-sm font-semibold text-gray-800 uppercase tracking-wide leading-tight mb-2 md:mb-3">
             {member.title}
           </p>
         </div>

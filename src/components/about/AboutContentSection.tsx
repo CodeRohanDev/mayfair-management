@@ -6,11 +6,11 @@ export default function AboutContentSection() {
       <Container>
         <div className="max-w-6xl mx-auto">
           <div className={`flex items-center justify-center mb-16 `}>
-            <div className="flex-1 h-0.5 bg-purple-900"></div>
-            <h2 className="text-5xl font-light text-purple-900 text-center mx-8 tracking-wider">
+            <div className="flex-1 h-0.5 animate-[slideInLeft_1s_ease-in-out]" style={{ backgroundColor: '#0a1b2f' }}></div>
+            <h2 className="text-5xl font-light text-center mx-8 tracking-wider" style={{ color: '#0a1b2f' }}>
               ABOUT
             </h2>
-            <div className="flex-1 h-0.5 bg-purple-900"></div>
+            <div className="flex-1 h-0.5 animate-[slideInRight_1s_ease-in-out]" style={{ backgroundColor: '#0a1b2f' }}></div>
           </div>
 
           <div className="space-y-6">

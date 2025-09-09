@@ -32,7 +32,7 @@ export const images = {
 
 // Image optimization settings
 export const imageConfig = {
-  domains: ['lincolnshiremgmt.com', 'cdn.lincolnshiremgmt.com'],
+  domains: ['MayFairmgmt.com', 'cdn.MayFairmgmt.com'],
   formats: ['image/webp', 'image/avif'],
   sizes: {
     thumbnail: 150,

@@ -1,6 +1,6 @@
 # 🎨 Customization Guide
 
-This guide will help you customize the Lincolnshire Management website for your specific needs.
+This guide will help you customize the MayFair Management website for your specific needs.
 
 ## 🏢 Quick Start - Change Company Information
 

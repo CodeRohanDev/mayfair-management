@@ -19,15 +19,15 @@ export default function TeamSection({ title, members, columns }: TeamSectionProp
   };
 
   return (
-    <section className="py-12">
+    <section className="py-8 md:py-12">
       <Container>
-        <div className="mb-8">
-          <h2 className="text-5xl font-normal text-gray-800 tracking-wide uppercase">
+        <div className="mb-6 md:mb-8 px-4 md:px-0">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-normal text-gray-800 tracking-wide uppercase">
             {title}
           </h2>
         </div>
 
-        <div className={`grid ${getGridCols(columns)} gap-6`}>
+        <div className={`grid ${getGridCols(columns)} gap-4 md:gap-6 px-4 md:px-0`}>
           {members.map((member) => (
             <TeamMemberCard key={member.id} member={member} />
           ))}
