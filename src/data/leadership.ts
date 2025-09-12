@@ -47,6 +47,14 @@ export const leadershipData = {
         },
         {
           id: "3",
+          name: "Malone Easley",
+          title: "Principal",
+          image: "/team/malone.jpg",
+          description: "Malone Easley is a Principal at MayFair, where he is responsible for leading investment analysis, due diligence, and market research across a range of sectors. He specializes in identifying and evaluating emerging growth opportunities, particularly within the technology and consumer industries. Malone is recognized for his analytical rigor, strategic insight, and collaborative approach to driving value for portfolio companies and investors.",
+          boardPositions: ["Board Observer at Growth Ventures", "Advisory Board at StartupTech"]
+        },
+        {
+          id: "4",
           name: "Diana Grace DuPont",
           title: "Vice President of Business",
           image: "/team/Diana Grace Dupont.jpg",
@@ -55,14 +63,7 @@ export const leadershipData = {
           boardPositions: ["Remedi8", "Schumacher", "Powerhouse", "AMPORTS", "Holley Performance Products", "True Temper Sports", "DHI Energy Service", "Nursery Supplies", "Desch Plantpak"],
           dealWork: "Phil's deal experience includes Remedi8, Schumacher, Powerhouse, AMPORTS, Holley Performance Products, True Temper Sports, Wabash National, DHI Energy Service, Nursery Supplies and Desch Plantpak."
         },
-        {
-          id: "4",
-          name: "Malone Easley",
-          title: "Principal",
-          image: "/team/malone.jpg",
-          description: "Malone Easley is a Principal at MayFair, where he is responsible for leading investment analysis, due diligence, and market research across a range of sectors. He specializes in identifying and evaluating emerging growth opportunities, particularly within the technology and consumer industries. Malone is recognized for his analytical rigor, strategic insight, and collaborative approach to driving value for portfolio companies and investors.",
-          boardPositions: ["Board Observer at Growth Ventures", "Advisory Board at StartupTech"]
-        },
+        
         // {
         //   id: "5",
         //   name: "Morgan Sheppard",
@@ -92,15 +93,8 @@ export const leadershipData = {
     investmentProfessionals: {
       title: "INVESTMENT PROFESSIONALS",
       members: [
-        
         {
           id: "6",
-          name: "Johans Gustavsson",
-          title: "Associate",
-          image: "/team/johans.jpg"
-        },
-        {
-          id: "7",
           name: "Marguerite Milica",
           title: "Strategy Consultant",
           image: "/team/Marguerite Milica.jpg",
@@ -108,52 +102,61 @@ export const leadershipData = {
           boardPositions: ["Board Observer at BioTech Innovations"]
         },
         {
-          id: "8",
-          name: "Nick Granata",
-          title: "Analyst",
-          image: "/team/nick.jpg"
+          id: "7",
+          name: "Johans Gustavsson",
+          title: "Associate",
+          image: "/team/johans.jpg"
         },
+        
+        
         {
-          id: "9",
+          id: "8",
           name: "Operano A.G.",
           title: "Investment Associate",
           image: "/team/operano.jpg"
         },
         {
-          id: "10",
+          id: "9",
           name: "Salen Anderson",
           title: "Research Analyst",
           image: "/team/salen.jpg"
         },
+        
         {
-          id: "11",
+          id: "10",
           name: "Jack Anno",
           title: "Research Analyst",
           image: "/team/jack.jpg"
         },
         {
-          id: "12",
+          id: "11",
           name: "Justin Hall",
           title: "Research Analyst",
           image: "/team/justin.jpg"
         },
         {
-          id: "13",
+          id: "12",
           name: "Bryce Smith",
           title: "Research Analyst",
           image: "/team/bryce.jpg"
         },
         {
-          id: "14",
+          id: "13",
           name: "Clay Hogue",
           title: "Research Analyst",
           image: "/team/clay.jpg"
         },
         {
-          id: "15",
+          id: "14",
           name: "Tony Rago",
           title: "Research Analyst",
           image: "/team/tony.jpg"
+        },
+        {
+          id: "15",
+          name: "Nick Granata",
+          title: "Analyst",
+          image: "/team/nick.jpg"
         },
         
       ]

@@ -15,7 +15,7 @@ export default function TeamMemberCard({ member }: TeamMemberCardProps) {
 
   return (
     <Link href={`/leadership/${member.id}`} className="block">
-      <div className="bg-white shadow-sm overflow-hidden hover:shadow-lg transition-all duration-300 flex flex-col cursor-pointer">
+      <div className="bg-white shadow-sm overflow-hidden hover:shadow-lg transition-all duration-300 flex flex-col cursor-pointer h-full">
         {/* Photo - only show if valid image exists */}
         {hasValidImage && (
           <div className="aspect-[3/4] bg-gray-200 relative overflow-hidden group">
@@ -47,7 +47,7 @@ export default function TeamMemberCard({ member }: TeamMemberCardProps) {
         )}
         
         {/* Member info section */}
-        <div className="p-3 md:p-6 bg-gray-50">
+        <div className="p-3 md:p-6 bg-gray-50 flex-1 flex flex-col justify-between">
           {/* Teal accent line */}
           <div className="w-12 md:w-16 h-0.5 bg-teal-500 mb-2 md:mb-4"></div>
           

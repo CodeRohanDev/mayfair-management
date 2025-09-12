@@ -3,7 +3,7 @@ export const statsData = [
     id: 'founded',
     icon: '/at a glance icon 1.png',
     number: '1986',
-    label: 'Lincoln was first opened and founded',
+    label: 'MayFair was first opened and founded',
     category: 'history'
   },
   {

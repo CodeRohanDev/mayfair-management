@@ -49,7 +49,7 @@ export const newsPosts: NewsPost[] = [
     author: "Portfolio Team",
     date: "2025-01-10",
     category: "Portfolio",
-    image: "/news-images/mgmt.jpg",
+    image: "/news-images/expansion.jpg",
     tags: ["portfolio", "expansion", "growth", "markets"]
   },
   {
@@ -161,7 +161,7 @@ export const newsPosts: NewsPost[] = [
     author: "Portfolio Team",
     date: "2024-04-03",
     category: "Portfolio",
-    image: "/news-images/mgmt.jpg",
+    image: "/news-images/manda.jpg",
     tags: ["performance", "portfolio", "quarterly", "results"]
   },
   {
@@ -253,7 +253,7 @@ export const newsPosts: NewsPost[] = [
     author: "Portfolio Team",
     date: "2023-12-21",
     category: "Portfolio",
-    image: "/news-images/mgmt.jpg",
+    image: "/news-images/press.jpg",
     tags: ["performance", "portfolio", "quarterly", "results"]
   },
   {
@@ -308,7 +308,7 @@ MayFair was advised by Loeb & Loeb.</p>
     author: "Portfolio Team",
     date: "2023-02-14",
     category: "Portfolio",
-    image: "/news-images/mgmt.jpg",
+    image: "/news-images/cxo.jpg",
     tags: ["performance", "portfolio", "quarterly", "results"]
   },
   {

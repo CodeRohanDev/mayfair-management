@@ -34,9 +34,9 @@ export default function ContactPage() {
                             <div className="space-y-0">
                                 {/* Address */}
                                 <div>
-                                    <p className="text-2xl text-gray-700 mb-2">780 Third Avenue, 40th Floor</p>
-                                    <p className="text-2xl text-gray-700 mb-2">New York, NY 10017</p>
-                                    <p className="text-2xl text-gray-700">212-319-3633</p>
+                                    <p className="text-2xl text-gray-700 mb-2">404 Washington Avenue,</p>
+                                    <p className="text-2xl text-gray-700 mb-2">Miami Beach, FL 33139</p>
+                                    {/* <p className="text-2xl text-gray-700">FL 33139</p> */}
                                 </div>
 
                                 {/* Deal Opportunities */}
@@ -58,7 +58,7 @@ export default function ContactPage() {
                                 </div>
 
                                 {/* Social Media */}
-                                <div className="pt-8">
+                                {/* <div className="pt-8">
                                     <h3 className="text-2xl font-semibold text-gray-800 mb-3">FOLLOW US</h3>
                                     <div className="flex space-x-4">
                                         <a href="#" className="text-2xl text-teal-600 hover:text-teal-800 underline">Twitter</a>
@@ -67,7 +67,7 @@ export default function ContactPage() {
                                         <span className="text-2xl text-gray-400">|</span>
                                         <a href="#" className="text-2xl text-teal-600 hover:text-teal-800 underline">Instagram</a>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
 
                             {/* Map */}
