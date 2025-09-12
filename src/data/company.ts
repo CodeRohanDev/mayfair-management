@@ -8,17 +8,17 @@ export const companyData = {
     company: "MayFair Management Inc.",
     city: "404 Washington Avenue,",
     country: "Miami Beach, FL 33139",
-    email: "info@MayFairmgmt.com",
-    phone: "+1 (212) 555-0123"
+    email: "info@myfair-management.com",
+    phone: "+1 (786) 302-8184"
   },
-  
+
   social: {
     twitter: "https://twitter.com/MayFairmgmt",
     linkedin: "https://linkedin.com/company/MayFair-management",
     instagram: "https://instagram.com/mayfairinc",
     website: "https://www.MayFairmgmt.com"
   },
-  
+
   founded: 1986,
   
   mission: {

@@ -42,19 +42,19 @@ export default function ContactPage() {
                                 {/* Deal Opportunities */}
                                 <div className="pt-8">
                                     <h3 className="text-2xl font-semibold text-gray-800 mb-3">FOR DEAL OPPORTUNITIES</h3>
-                                    <p className="text-2xl font-medium text-gray-700 mb-1">Matt Nacier, <a href="mailto:mnacier@MayFairmgmt.com" className="underline hover:opacity-80 transition-opacity" style={{ color: '#4080bf' }}>mnacier@MayFairmgmt.com</a></p>
+                                    <p className="text-2xl font-medium text-gray-700 mb-1">Matt Nacier, <a href="mailto:info@myfair-management.com" className="underline hover:opacity-80 transition-opacity" style={{ color: '#4080bf' }}>info@myfair-management.com</a></p>
                                 </div>
 
                                 {/* Investor Relations */}
                                 <div className="pt-4">
                                     <h3 className="text-2xl font-semibold text-gray-800 mb-3">FOR INVESTOR and MEDIA RELATIONS</h3>
-                                    <p className="text-2xl font-medium text-gray-700 mb-1">Betsy Corbin, <a href="mailto:bcorbin@MayFairmgmt.com" className="text-teal-600 hover:text-teal-800 underline">bcorbin@MayFairmgmt.com</a></p>
+                                    <p className="text-2xl font-medium text-gray-700 mb-1">Betsy Corbin, <a href="mailto:info@myfair-management.com" className="text-teal-600 hover:text-teal-800 underline">info@myfair-management.com</a></p>
                                 </div>
 
                                 {/* General Inquiries */}
                                 <div className="pt-4">
                                     <h3 className="text-2xl font-semibold text-gray-800 mb-3">FOR GENERAL INQUIRIES</h3>
-                                    <p className="text-2xl text-gray-700 mb-1"><a href="mailto:info@lmi780.com" className="text-teal-600 hover:text-teal-800 underline">info@lmi780.com</a></p>
+                                    <p className="text-2xl text-gray-700 mb-1"><a href="mailto:info@myfair-management.com" className="text-teal-600 hover:text-teal-800 underline">info@myfair-management.com</a></p>
                                 </div>
 
                                 {/* Social Media */}

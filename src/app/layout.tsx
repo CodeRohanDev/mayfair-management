@@ -33,8 +33,11 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
+  other: {
+    "msvalidate.01": "07457BC6F782C46ABF5CAF548678E9B2",
   },
 };
 
