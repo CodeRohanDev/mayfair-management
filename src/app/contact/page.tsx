@@ -1,11 +1,46 @@
+import { Metadata } from 'next';
+import { generateMetadata, generateStructuredData } from '@/lib/seo';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Container from '@/components/ui/Container';
 
+export const metadata: Metadata = generateMetadata({
+  title: 'Contact MayFair Management - Get In Touch',
+  description: 'Contact MayFair Management for deal opportunities, investor relations, and general inquiries. Located in Miami Beach, FL. Reach out to our team today.',
+  keywords: [
+    'contact MayFair Management',
+    'private equity contact',
+    'investment opportunities',
+    'deal opportunities',
+    'investor relations',
+    'Miami Beach office',
+    'private equity firm contact',
+    'investment inquiries',
+    'MayFair Management address',
+    'private equity phone number'
+  ],
+  image: '/contact.jpg',
+  url: '/contact',
+  type: 'website'
+});
+
 export default function ContactPage() {
-    return (
-        <div className="min-h-screen">
-            <Header />
+  const structuredData = generateStructuredData({
+    title: 'Contact MayFair Management - Get In Touch',
+    description: 'Contact MayFair Management for deal opportunities, investor relations, and general inquiries. Located in Miami Beach, FL. Reach out to our team today.',
+    url: '/contact',
+    type: 'ContactPage',
+    image: '/contact.jpg'
+  });
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <div className="min-h-screen">
+        <Header />
 
             {/* Hero Section with Background Image */}
             <section
@@ -42,19 +77,19 @@ export default function ContactPage() {
                                 {/* Deal Opportunities */}
                                 <div className="pt-8">
                                     <h3 className="text-2xl font-semibold text-gray-800 mb-3">FOR DEAL OPPORTUNITIES</h3>
-                                    <p className="text-2xl font-medium text-gray-700 mb-1">Matt Nacier, <a href="mailto:info@myfair-management.com" className="underline hover:opacity-80 transition-opacity" style={{ color: '#4080bf' }}>info@myfair-management.com</a></p>
+                                    <p className="text-2xl font-medium text-gray-700 mb-1">Matt Nacier, <a href="mailto:info@mayfairmanage.com" className="underline hover:opacity-80 transition-opacity" style={{ color: '#4080bf' }}>info@mayfairmanage.com</a></p>
                                 </div>
 
                                 {/* Investor Relations */}
                                 <div className="pt-4">
                                     <h3 className="text-2xl font-semibold text-gray-800 mb-3">FOR INVESTOR and MEDIA RELATIONS</h3>
-                                    <p className="text-2xl font-medium text-gray-700 mb-1">Betsy Corbin, <a href="mailto:info@myfair-management.com" className="text-teal-600 hover:text-teal-800 underline">info@myfair-management.com</a></p>
+                                    <p className="text-2xl font-medium text-gray-700 mb-1">Betsy Corbin, <a href="mailto:info@mayfairmanage.com" className="text-teal-600 hover:text-teal-800 underline">info@mayfairmanage.com</a></p>
                                 </div>
 
                                 {/* General Inquiries */}
                                 <div className="pt-4">
                                     <h3 className="text-2xl font-semibold text-gray-800 mb-3">FOR GENERAL INQUIRIES</h3>
-                                    <p className="text-2xl text-gray-700 mb-1"><a href="mailto:info@myfair-management.com" className="text-teal-600 hover:text-teal-800 underline">info@myfair-management.com</a></p>
+                                    <p className="text-2xl text-gray-700 mb-1"><a href="mailto:info@mayfairmanage.com" className="text-teal-600 hover:text-teal-800 underline">info@mayfairmanage.com</a></p>
                                 </div>
 
                                 {/* Social Media */}
@@ -130,5 +165,6 @@ export default function ContactPage() {
 
             <Footer />
         </div>
+      </>
     );
 }

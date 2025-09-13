@@ -8,7 +8,7 @@ export const companyData = {
     company: "MayFair Management Inc.",
     city: "404 Washington Avenue,",
     country: "Miami Beach, FL 33139",
-    email: "info@myfair-management.com",
+    email: "info@mayfairmanage.com",
     phone: "+1 (786) 302-8184"
   },
 
