@@ -82,8 +82,8 @@ export function generateMetadata({
       card: "summary_large_image",
       title: pageTitle,
       description: pageDescription,
-      creator: "@MayFairmgmt",
-      site: "@MayFairmgmt",
+      creator: "@mayfairmanage",
+      site: "@mayfairmanage",
       images: [pageImage],
     },
   }

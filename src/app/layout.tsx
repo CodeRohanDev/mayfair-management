@@ -59,8 +59,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteConfig.title,
     description: siteConfig.description,
-    creator: "@MayFairmgmt",
-    site: "@MayFairmgmt",
+    creator: "@mayfairmanage",
+    site: "@mayfairmanage",
     images: [`${siteConfig.url}/hero banner image.jpg`],
   },
   icons: {

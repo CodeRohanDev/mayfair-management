@@ -13,10 +13,10 @@ export const companyData = {
   },
 
   social: {
-    twitter: "https://twitter.com/MayFairmgmt",
+    twitter: "https://twitter.com/mayfairmanage",
     linkedin: "https://linkedin.com/company/MayFair-management",
     instagram: "https://instagram.com/mayfairinc",
-    website: "https://www.MayFairmgmt.com"
+    website: "https://www.mayfairmanage.com"
   },
 
   founded: 1986,

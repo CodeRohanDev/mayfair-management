@@ -37,7 +37,7 @@ export default function SitemapPage() {
     'phil-kim',
     'salen',
     'serena-grace-monroe',
-    'tj-maloney',
+    'aleksandra-vyshnevetska',
     'tony'
   ]
 

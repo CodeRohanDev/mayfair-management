@@ -173,9 +173,9 @@ export const leadershipData = {
         },
         {
           id: "22",
-          name: "TJ Maloney",
+          name: "Aleksandra Vyshnevetska",
           title: "Operating Partner",
-          image: "/team/TJ_Maloney.jpg"
+          image: "/team/Aleksandra Vyshnevetska.jpg"
         }
       ]
     },

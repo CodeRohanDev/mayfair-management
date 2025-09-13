@@ -32,7 +32,7 @@ export const images = {
 
 // Image optimization settings
 export const imageConfig = {
-  domains: ['MayFairmgmt.com', 'cdn.MayFairmgmt.com'],
+  domains: ['mayfairmanage.com', 'cdn.mayfairmanage.com'],
   formats: ['image/webp', 'image/avif'],
   sizes: {
     thumbnail: 150,
