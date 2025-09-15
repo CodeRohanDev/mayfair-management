@@ -168,7 +168,7 @@ export const leadershipData = {
         {
           id: "21",
           name: "Serena Grace Monroe",
-          title: "Chief Operating Officer",
+          title: "Senior Operating Partner",
           image: "/team/Serena Grace Monroe.jpg"
         },
         {
