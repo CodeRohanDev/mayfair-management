@@ -120,7 +120,7 @@ export default function RootLayout({
         },
         "contactPoint": {
           "@type": "ContactPoint",
-          "telephone": "+1-786-302-8184",
+          "telephone": "+1 (786) 451-9957",
           "contactType": "customer service",
           "email": "info@mayfairmanage.com"
         },

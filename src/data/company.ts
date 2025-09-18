@@ -9,7 +9,7 @@ export const companyData = {
     city: "404 Washington Avenue,",
     country: "Miami Beach, FL 33139",
     email: "info@mayfairmanage.com",
-    phone: "+1 (786) 302-8184"
+    phone: "+1 (786) 451-9957"
   },
 
   social: {
