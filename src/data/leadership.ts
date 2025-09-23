@@ -59,7 +59,7 @@ export const leadershipData = {
           title: "Vice President of Business",
           image: "/team/Diana Grace Dupont.jpg",
           description: "Diana Grace DuPont is the Vice President of Operations and a member of the Board of Directors at MayFair. She brings a wealth of operational expertise and leadership to the firm, overseeing key initiatives and supporting the growth and success of portfolio companies. Diana is known for her collaborative approach and her ability to drive strategic value across diverse teams and industries.",
-          bio: "Diana is a graduate of Harvard University, and her passions include the performing arts. She studied viola and composition at Juilliard Pre-College, and continued performing and writing classical music at Harvard, where she received her A.B. in Economics.",
+          bio: "Diana is a graduate of New York University, and her passions include the performing arts. She studied viola and composition at Juilliard Pre-College, and continued performing and writing classical music at Harvard, where she received her A.B. in Economics.",
           boardPositions: ["Remedi8", "Schumacher", "Powerhouse", "AMPORTS", "Holley Performance Products", "True Temper Sports", "DHI Energy Service", "Nursery Supplies", "Desch Plantpak"],
           dealWork: "Diana's deal experience includes Remedi8, Schumacher, Powerhouse, AMPORTS, Holley Performance Products, True Temper Sports, Wabash National, DHI Energy Service, Nursery Supplies and Desch Plantpak."
         },
