@@ -123,7 +123,7 @@ export default async function LeadershipProfilePage({ params }: LeadershipProfil
                                         </div>
                                         {member.boardPositions && member.boardPositions.length > 0 ? (
                                             <p className="text-gray-700 text-xl leading-relaxed text-sm">
-                                                He has served on the board of twelve companies including {member.boardPositions.join(', ')}.
+                                                {member.boardPositions.join(', ')}.
                                             </p>
                                         ) : (
                                             <p className="text-gray-700 text-xl leading-relaxed text-sm">

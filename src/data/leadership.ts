@@ -21,7 +21,7 @@ export const leadershipData = {
   },
 
   description: {
-    text: "The diverse backgrounds of each member of the team brings a unique value-add to every investment, and the firm’s executives understand how to compliment and build upon on one another’s strengths to create the best outcomes for the firm’s portfolio companies, partners, and investors. MayFair Management creates teams that truly understand how to provide the support and resources companies need to grow, how to align the interests of various stakeholders, and how to deliver lasting strategic value."
+    text: "The diverse backgrounds of each team member bring unique value to every investment, and the firm's executives understand how to complement and build upon one another's strengths to create the best outcomes for the firm's portfolio companies, partners, and investors. MayFair Management creates teams that truly understand how to provide the support and resources companies need to grow, how to align the interests of various stakeholders, and how to deliver lasting strategic value."
   },
 
   sections: {
@@ -33,16 +33,16 @@ export const leadershipData = {
           name: "Jane Decker",
           title: "Senior Partner",
           image: "/team/Jane.jpg",
-          description: "Jane Decker is a Senior Partner at MayFair, recognized for her strategic leadership and deep expertise in private equity. She has played a pivotal role in driving the firm's growth, overseeing major investments, and mentoring the next generation of investment professionals. Jane is known for her collaborative approach, strong analytical skills, and commitment to delivering value for portfolio companies and investors.",
+          description: "Jane Decker is a Senior Partner at MayFair, recognized for his strategic leadership and deep expertise in private equity. He has played a pivotal role in driving the firm's growth, overseeing major investments, and mentoring the next generation of investment professionals. Jane is known for his collaborative approach, strong analytical skills, and commitment to delivering value for portfolio companies and investors.",
           boardPositions: ["HealthTech Solutions", "MedDevice Inc"],
-          dealWork: "Mike's deal experience includes healthcare and technology investments across multiple portfolio companies, with a focus on value creation and operational improvements."
+          dealWork: "Jane's deal experience includes healthcare and technology investments across multiple portfolio companies, with a focus on value creation and operational improvements."
         },
         {
           id: "2",
           name: "Jeena Henry",
           title: "Partner",
           image: "/team/jeena.jpg",
-          description: "Jeena Henry is a Partner at MayFair, known for her leadership in driving operational excellence and strategic growth across the firm’s portfolio. She brings deep experience in private equity, with a focus on value creation, process improvement, and building high-performing teams. Jeena is recognized for her collaborative approach and her ability to deliver results in complex, fast-paced environments.",
+          description: "Jeena Henry is a Partner at MayFair, known for his leadership in driving operational excellence and strategic growth across the firm's portfolio. He brings deep experience in private equity, with a focus on value creation, process improvement, and building high-performing teams. Jeena is recognized for his collaborative approach and his ability to deliver results in complex, fast-paced environments.",
           boardPositions: ["Board Member at Industrial Partners", "Advisory Board at Manufacturing Excellence"]
         },
         {
@@ -59,11 +59,11 @@ export const leadershipData = {
           title: "Vice President of Business",
           image: "/team/Diana Grace Dupont.jpg",
           description: "Diana Grace DuPont is the Vice President of Operations and a member of the Board of Directors at MayFair. She brings a wealth of operational expertise and leadership to the firm, overseeing key initiatives and supporting the growth and success of portfolio companies. Diana is known for her collaborative approach and her ability to drive strategic value across diverse teams and industries.",
-          bio: "Phil is a graduate of Harvard University, and his passions include the performing arts. He studied viola and composition at Juilliard Pre-College, and continued performing and writing classical music at Harvard, where he received his A.B. in Economics.",
+          bio: "Diana is a graduate of Harvard University, and her passions include the performing arts. She studied viola and composition at Juilliard Pre-College, and continued performing and writing classical music at Harvard, where she received her A.B. in Economics.",
           boardPositions: ["Remedi8", "Schumacher", "Powerhouse", "AMPORTS", "Holley Performance Products", "True Temper Sports", "DHI Energy Service", "Nursery Supplies", "Desch Plantpak"],
-          dealWork: "Phil's deal experience includes Remedi8, Schumacher, Powerhouse, AMPORTS, Holley Performance Products, True Temper Sports, Wabash National, DHI Energy Service, Nursery Supplies and Desch Plantpak."
+          dealWork: "Diana's deal experience includes Remedi8, Schumacher, Powerhouse, AMPORTS, Holley Performance Products, True Temper Sports, Wabash National, DHI Energy Service, Nursery Supplies and Desch Plantpak."
         },
-        
+
         // {
         //   id: "5",
         //   name: "Morgan Sheppard",
@@ -84,8 +84,8 @@ export const leadershipData = {
           title: "Strategy Consultant",
           image: "/team/marguerite milica.jpg",
           description: "Marguerite Milica is a Senior Consultant at MayFair, specializing in investor relations and client communications. She brings extensive experience in private equity and financial services, supporting the firm's investor engagement, reporting, and relationship management efforts. Marguerite is known for her attention to detail, professionalism, and commitment to delivering exceptional service to investors.",
-          bio: "Betsy Corbin is the Investor Relations and Marketing Director at MayFair. She also serves as the firm's Sustainability Officer focused on the adherence to ESG criteria. MayFair was motivated to clearly communicate their commitment to Environmental, Social and Governance (ESG) and create a policy in line with what has already been practiced at the firm. Working with the MayFair team and portfolio companies, Betsy developed MayFair's ESG Policy. Together with the team at MayFair, she continually looks for ways for MayFair and the portfolio to uphold ESG best practices. Prior to joining MayFair in 2015, Betsy worked at the New York location of the Garda Patent Gallery (Santa Fe, NM) as assistant to the Director and as a Sales Associate. Betsy holds a BA from Wheaton College. Betsy can be found on the weekends visiting favorite museum collections in New York or enjoying Central Park, of which she is a member of the Central Park Conservancy.",
-          dealWork: "Betsy's work focuses on investor relations, marketing initiatives, and ESG policy development across all portfolio companies and investment activities."
+          bio: "Marguerite Milica is the Investor Relations and Marketing Director at MayFair. She also serves as the firm's Sustainability Officer focused on adherence to ESG criteria. MayFair was motivated to clearly communicate their commitment to Environmental, Social and Governance (ESG) and create a policy in line with what has already been practiced at the firm. Working with the MayFair team and portfolio companies, Marguerite developed MayFair's ESG Policy. Together with the team at MayFair, she continually looks for ways for MayFair and the portfolio to uphold ESG best practices. Prior to joining MayFair in 2015, Marguerite worked at the New York location of the Garda Patent Gallery (Santa Fe, NM) as assistant to the Director and as a Sales Associate. Marguerite holds a BA from Wheaton College. Marguerite can be found on the weekends visiting favorite museum collections in New York or enjoying Central Park, of which she is a member of the Central Park Conservancy.",
+          dealWork: "Marguerite's work focuses on investor relations, marketing initiatives, and ESG policy development across all portfolio companies and investment activities."
         }
       ]
     },
@@ -107,8 +107,8 @@ export const leadershipData = {
           title: "Associate",
           image: "/team/johans.jpg"
         },
-        
-        
+
+
         {
           id: "8",
           name: "Operano A.G.",
@@ -121,7 +121,7 @@ export const leadershipData = {
           title: "Research Analyst",
           image: "/team/salen.jpg"
         },
-        
+
         {
           id: "10",
           name: "Jack Anno",
@@ -158,7 +158,7 @@ export const leadershipData = {
           title: "Analyst",
           image: "/team/nick.jpg"
         },
-        
+
       ]
     },
 
@@ -167,9 +167,9 @@ export const leadershipData = {
       members: [
         {
           id: "21",
-          name: "Serena Grace Monroe",
+          name: "Serena Grace Monroe",
           title: "Senior Operating Partner",
-          image: "/team/Serena Grace Monroe.jpg"
+          image: "/team/Serena Grace Monroe.jpg"
         },
         {
           id: "22",
@@ -185,9 +185,9 @@ export const leadershipData = {
       members: [
         {
           id: "23",
-          name: "Serena Grace Monroe",
+          name: "Serena Grace Monroe",
           title: "Chief Operating Officer",
-          image: "/team/Serena Grace Monroe.jpg"
+          image: "/team/Serena Grace Monroe.jpg"
         },
         {
           id: "24",
