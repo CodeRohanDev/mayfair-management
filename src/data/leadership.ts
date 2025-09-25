@@ -97,7 +97,7 @@ export const leadershipData = {
           id: "6",
           name: "Marguerite Milica",
           title: "Strategy Consultant",
-          image: "/team/Marguerite Milica.jpg",
+          image: "/team/MargueriteMilica.jpg",
           description: "Marguerite Milica is a Senior Consultant at MayFair, specializing in investor relations and client communications. She brings extensive experience in private equity and financial services, supporting the firm's investor engagement, reporting, and relationship management efforts. Marguerite is known for her attention to detail, professionalism, and commitment to delivering exceptional service to investors.",
           boardPositions: ["Board Observer at BioTech Innovations"]
         },
