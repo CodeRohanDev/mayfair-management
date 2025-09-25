@@ -57,7 +57,7 @@ export const leadershipData = {
           id: "4",
           name: "Diana Grace DuPont",
           title: "Vice President of Business",
-          image: "/team/Diana Grace Dupont.jpg",
+          image: "/team/DianaGraceDupont.jpg",
           description: "Diana Grace DuPont is the Vice President of Operations and a member of the Board of Directors at MayFair. She brings a wealth of operational expertise and leadership to the firm, overseeing key initiatives and supporting the growth and success of portfolio companies. Diana is known for her collaborative approach and her ability to drive strategic value across diverse teams and industries.",
           bio: "Diana is a graduate of New York University, and her passions include the performing arts. She studied viola and composition at Juilliard Pre-College, and continued performing and writing classical music at Harvard, where she received her A.B. in Economics.",
           boardPositions: ["Remedi8", "Schumacher", "Powerhouse", "AMPORTS", "Holley Performance Products", "True Temper Sports", "DHI Energy Service", "Nursery Supplies", "Desch Plantpak"],
@@ -82,7 +82,7 @@ export const leadershipData = {
           id: "marguerite-milica",
           name: "Marguerite Milica",
           title: "Strategy Consultant",
-          image: "/team/marguerite milica.jpg",
+          image: "/team/margueritemilica.jpg",
           description: "Marguerite Milica is a Senior Consultant at MayFair, specializing in investor relations and client communications. She brings extensive experience in private equity and financial services, supporting the firm's investor engagement, reporting, and relationship management efforts. Marguerite is known for her attention to detail, professionalism, and commitment to delivering exceptional service to investors.",
           bio: "Marguerite Milica is the Investor Relations and Marketing Director at MayFair. She also serves as the firm's Sustainability Officer focused on adherence to ESG criteria. MayFair was motivated to clearly communicate their commitment to Environmental, Social and Governance (ESG) and create a policy in line with what has already been practiced at the firm. Working with the MayFair team and portfolio companies, Marguerite developed MayFair's ESG Policy. Together with the team at MayFair, she continually looks for ways for MayFair and the portfolio to uphold ESG best practices. Prior to joining MayFair in 2015, Marguerite worked at the New York location of the Garda Patent Gallery (Santa Fe, NM) as assistant to the Director and as a Sales Associate. Marguerite holds a BA from Wheaton College. Marguerite can be found on the weekends visiting favorite museum collections in New York or enjoying Central Park, of which she is a member of the Central Park Conservancy.",
           dealWork: "Marguerite's work focuses on investor relations, marketing initiatives, and ESG policy development across all portfolio companies and investment activities."
@@ -169,13 +169,13 @@ export const leadershipData = {
           id: "21",
           name: "Serena Grace Monroe",
           title: "Senior Operating Partner",
-          image: "/team/Serena Grace Monroe.jpg"
+          image: "/team/SerenaGraceMonroe.jpg"
         },
         {
           id: "22",
           name: "Aleksandra Vyshnevetska",
           title: "Operating Partner",
-          image: "/team/Aleksandra Vyshnevetska.jpg"
+          image: "/team/AleksandraVyshnevetska.jpg"
         }
       ]
     },
