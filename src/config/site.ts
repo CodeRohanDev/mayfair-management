@@ -30,10 +30,11 @@ export const siteConfig = {
 
   // Analytics & Tracking (add your IDs here)
   analytics: {
-    googleAnalytics: '', // GA4 Measurement ID
-    googleTagManager: '', // GTM Container ID
-    facebookPixel: '', // Facebook Pixel ID
-    linkedInInsight: '' // LinkedIn Insight Tag
+    googleAnalytics: process.env.NEXT_PUBLIC_GA_ID || '', // GA4 Measurement ID (format: G-XXXXXXXXXX)
+    googleTagManager: process.env.NEXT_PUBLIC_GTM_ID || '', // GTM Container ID (format: GTM-XXXXXXX)
+    facebookPixel: process.env.NEXT_PUBLIC_FB_PIXEL_ID || '', // Facebook Pixel ID
+    linkedInInsight: process.env.NEXT_PUBLIC_LINKEDIN_PARTNER_ID || '', // LinkedIn Insight Tag
+    bingUET: process.env.NEXT_PUBLIC_BING_UET_ID || '', // Bing UET Tag ID
   },
 
   // Features Toggle

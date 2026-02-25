@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { generateMetadata } from '@/lib/seo';
+import { generateMetadata, generateBreadcrumbSchema } from '@/lib/seo';
 import NewsPageClient from './NewsPageClient';
 
 export const metadata: Metadata = generateMetadata({

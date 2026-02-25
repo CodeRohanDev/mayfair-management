@@ -2,9 +2,9 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://www.mayfairmanage.com/sitemap.xml
-Sitemap: https://www.mayfairmanage.com/sitemap-news.xml
-Sitemap: https://www.mayfairmanage.com/sitemap-leadership.xml
+Sitemap: https://www.may-fairmanagement.com/sitemap.xml
+Sitemap: https://www.may-fairmanagement.com/sitemap-news.xml
+Sitemap: https://www.may-fairmanagement.com/sitemap-leadership.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1

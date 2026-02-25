@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { generateMetadata, generateStructuredData } from '@/lib/seo';
+import { generateMetadata, generateStructuredData, generateBreadcrumbSchema } from '@/lib/seo';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import PortfolioHeroSection from '@/components/portfolio/PortfolioHeroSection';
@@ -37,11 +37,20 @@ export default function PortfolioPage() {
     image: '/PORTFOLIO hero.jpg'
   });
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'Portfolio', url: '/portfolio' }
+  ]);
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <div className="min-h-screen font-light" style={{ fontFamily: "'IBM Plex Sans', 'Inter', sans-serif" }}>
         <Header />

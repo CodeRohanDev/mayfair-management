@@ -7,22 +7,22 @@ export const images = {
     white: '/images/logo-white.svg',
     dark: '/images/logo-dark.svg'
   },
-  
+
   hero: {
     background: '/images/hero-bg.jpg',
     overlay: '/images/hero-overlay.png'
   },
-  
+
   about: {
     team: '/images/team.jpg',
     office: '/images/office.jpg'
   },
-  
+
   news: {
     placeholder: '/images/news-placeholder.jpg',
     awards: '/images/awards.jpg'
   },
-  
+
   icons: {
     favicon: '/favicon.ico',
     apple: '/apple-touch-icon.png',
@@ -32,7 +32,7 @@ export const images = {
 
 // Image optimization settings
 export const imageConfig = {
-  domains: ['mayfairmanage.com', 'cdn.mayfairmanage.com'],
+  domains: ['may-fairmanagement.com', 'cdn.may-fairmanagement.com'],
   formats: ['image/webp', 'image/avif'],
   sizes: {
     thumbnail: 150,

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { siteConfig } from "@/config/site";
+import Analytics from "@/components/Analytics";
 import "./globals.css";
 
 const inter = Inter({
@@ -75,15 +76,17 @@ export const metadata: Metadata = {
   },
   manifest: "/manifest.json",
   other: {
-    "msvalidate.01": "07457BC6F782C46ABF5CAF548678E9B2",
-    "google-site-verification": "", // Add your Google Search Console verification code
-    "yandex-verification": "", // Add your Yandex verification code if needed
-    "pinterest-site-verification": "", // Add your Pinterest verification code if needed
+    "msvalidate.01": process.env.NEXT_PUBLIC_BING_VERIFICATION || "07457BC6F782C46ABF5CAF548678E9B2",
+    "google-site-verification": process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || "", // Add your Google Search Console verification code
+    "yandex-verification": process.env.NEXT_PUBLIC_YANDEX_VERIFICATION || "", // Add your Yandex verification code if needed
+    "pinterest-site-verification": process.env.NEXT_PUBLIC_PINTEREST_VERIFICATION || "", // Add your Pinterest verification code if needed
+    "facebook-domain-verification": process.env.NEXT_PUBLIC_FB_DOMAIN_VERIFICATION || "", // Add your Facebook domain verification code if needed
   },
   verification: {
-    google: "", // Add your Google Search Console verification code
-    yandex: "", // Add your Yandex verification code if needed
-    yahoo: "", // Add your Yahoo verification code if needed
+    google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || '', // Add your Google Search Console verification code
+    yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION || '', // Add your Yandex verification code if needed
+    yahoo: process.env.NEXT_PUBLIC_YAHOO_VERIFICATION || '', // Add your Yahoo verification code if needed
+    bing: process.env.NEXT_PUBLIC_BING_VERIFICATION || '', // Add your Bing verification code
   },
   category: "Finance",
 };
@@ -122,7 +125,7 @@ export default function RootLayout({
           "@type": "ContactPoint",
           "telephone": "+1 (786) 451-9957",
           "contactType": "customer service",
-          "email": "info@mayfairmanage.com"
+          "email": "info@may-fairmanagement.com"
         },
         "sameAs": [
           siteConfig.social.twitter,
@@ -180,6 +183,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
+        <Analytics />
         {children}
       </body>
     </html>

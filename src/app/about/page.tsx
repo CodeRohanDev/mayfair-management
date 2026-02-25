@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { generateMetadata, generateStructuredData } from '@/lib/seo';
+import { generateMetadata, generateStructuredData, generateBreadcrumbSchema } from '@/lib/seo';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AboutHeroSection from '@/components/about/AboutHeroSection';
@@ -37,11 +37,20 @@ export default function AboutPage() {
     image: '/ABOUT-HERO.jpg'
   });
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'About', url: '/about' }
+  ]);
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <div className="min-h-screen font-light" style={{ fontFamily: "'IBM Plex Sans', 'Inter', sans-serif" }}>
         <Header />

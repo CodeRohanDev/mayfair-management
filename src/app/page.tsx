@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
-import { generateMetadata, generateStructuredData } from '@/lib/seo';
+import { generateMetadata, generateStructuredData, generateInvestmentServiceSchema } from '@/lib/seo';
+import { generateLocalBusinessSchema } from '@/lib/seo-enhancements';
 import Header from '@/components/Header';
 import AboutSection from '@/components/AboutSection';
 import NewsSection from '@/components/NewsSection';
@@ -36,11 +37,22 @@ export default function Home() {
     image: '/hero banner image.jpg'
   });
 
+  const localBusinessSchema = generateLocalBusinessSchema();
+  const investmentServiceSchema = generateInvestmentServiceSchema();
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(investmentServiceSchema) }}
       />
       <div className="min-h-screen font-light" style={{ fontFamily: "'IBM Plex Sans', 'Inter', sans-serif" }}>
         <Header />

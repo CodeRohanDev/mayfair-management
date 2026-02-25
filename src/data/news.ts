@@ -126,7 +126,7 @@ export const newsPosts: NewsPost[] = [
 
       <h2>About MayFair Management, Inc.</h>
 
-      <p>MayFair Management Inc., founded in 1986, is a private equity firm focused on investing in and acquiring growing middle market companies across an array of industries. Headquartered in New York, MayFair Management invests in acquisitions of private companies, recapitalizations, corporate divestitures, management buyouts and growth equity for public and private companies. MayFair Management manages over $1.9 billion in fund commitments. For more information: www.mayfairmanage.com</p>
+      <p>MayFair Management Inc., founded in 1986, is a private equity firm focused on investing in and acquiring growing middle market companies across an array of industries. Headquartered in New York, MayFair Management invests in acquisitions of private companies, recapitalizations, corporate divestitures, management buyouts and growth equity for public and private companies. MayFair Management manages over $1.9 billion in fund commitments. For more information: www.may-fairmanagement.com</p>
 
       <h2>About Latite</h>
 
