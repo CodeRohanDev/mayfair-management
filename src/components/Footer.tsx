@@ -16,7 +16,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-lg font-medium text-white">
-              Copyright © 2024
+              Copyright © 2026
               <br />
               {companyData.contact.company}
             </p>
