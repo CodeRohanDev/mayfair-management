@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import { leadershipData, TeamMember } from '@/data/leadership';
-import { generateMetadata, generatePersonSchema, generateBreadcrumbSchema } from '@/lib/seo';
+import { generateMetadata as createMetadata, generatePersonSchema, generateBreadcrumbSchema } from '@/lib/seo';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Container from '@/components/ui/Container';
@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: LeadershipProfilePageProps): 
         };
     }
 
-    return generateMetadata({
+    return createMetadata({
         title: `${member.name} - ${member.title}`,
         description: member.description || `Meet ${member.name}, ${member.title} at MayFair Management. Learn about their experience and contributions to our private equity firm.`,
         keywords: [member.name, member.title, 'MayFair Management leadership', 'private equity executive'],
@@ -196,5 +196,6 @@ export default async function LeadershipProfilePage({ params }: LeadershipProfil
 
                 <Footer />
             </div>
-            );
+        </>
+    );
 }

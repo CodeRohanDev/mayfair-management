@@ -86,7 +86,6 @@ export const metadata: Metadata = {
     google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || '', // Add your Google Search Console verification code
     yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION || '', // Add your Yandex verification code if needed
     yahoo: process.env.NEXT_PUBLIC_YAHOO_VERIFICATION || '', // Add your Yahoo verification code if needed
-    bing: process.env.NEXT_PUBLIC_BING_VERIFICATION || '', // Add your Bing verification code
   },
   category: "Finance",
 };

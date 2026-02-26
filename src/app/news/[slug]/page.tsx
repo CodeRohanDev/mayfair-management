@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import { newsPosts } from '@/data/news';
-import { generateMetadata, generateArticleSchema, generateBreadcrumbSchema } from '@/lib/seo';
+import { generateMetadata as createMetadata, generateArticleSchema, generateBreadcrumbSchema } from '@/lib/seo';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Container from '@/components/ui/Container';
@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: NewsPostPageProps): Promise<M
     };
   }
 
-  return generateMetadata({
+  return createMetadata({
     title: post.title,
     description: post.excerpt,
     keywords: [post.category, 'MayFair Management news', 'private equity news'],
@@ -49,7 +49,7 @@ export default async function NewsPostPage({ params }: NewsPostPageProps) {
   const articleSchema = generateArticleSchema({
     headline: post.title,
     description: post.excerpt,
-    image: post.image,
+    image: post.image || '/NEWS.jpg',
     datePublished: post.date,
     dateModified: post.date,
     author: post.author,
@@ -142,5 +142,6 @@ export default async function NewsPostPage({ params }: NewsPostPageProps) {
 
         <Footer />
       </div>
-      );
+    </>
+  );
 }
