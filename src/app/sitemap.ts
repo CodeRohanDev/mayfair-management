@@ -49,7 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Dynamic leadership pages (you can expand this based on your data)
   const leadershipPages = [
-    'marguerite-milica',
+    'Anna-milica',
     'bryce',
     'clay',
     'diana-grace-dupont',

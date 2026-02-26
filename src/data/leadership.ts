@@ -79,13 +79,13 @@ export const leadershipData = {
       title: "INVESTOR RELATIONS",
       members: [
         {
-          id: "marguerite-milica",
-          name: "Marguerite Milica",
+          id: "Anna-milica",
+          name: "Anna Collins",
           title: "Strategy Consultant",
-          image: "/team/MargueriteMilica.jpg",
-          description: "Marguerite Milica is a Senior Consultant at MayFair, specializing in investor relations and client communications. She brings extensive experience in private equity and financial services, supporting the firm's investor engagement, reporting, and relationship management efforts. Marguerite is known for her attention to detail, professionalism, and commitment to delivering exceptional service to investors.",
-          bio: "Marguerite Milica is the Investor Relations and Marketing Director at MayFair. She also serves as the firm's Sustainability Officer focused on adherence to ESG criteria. MayFair was motivated to clearly communicate their commitment to Environmental, Social and Governance (ESG) and create a policy in line with what has already been practiced at the firm. Working with the MayFair team and portfolio companies, Marguerite developed MayFair's ESG Policy. Together with the team at MayFair, she continually looks for ways for MayFair and the portfolio to uphold ESG best practices. Prior to joining MayFair in 2015, Marguerite worked at the New York location of the Garda Patent Gallery (Santa Fe, NM) as assistant to the Director and as a Sales Associate. Marguerite holds a BA from Wheaton College. Marguerite can be found on the weekends visiting favorite museum collections in New York or enjoying Central Park, of which she is a member of the Central Park Conservancy.",
-          dealWork: "Marguerite's work focuses on investor relations, marketing initiatives, and ESG policy development across all portfolio companies and investment activities."
+          image: "/team/AnnaCollins.png",
+          description: "Anna Collins is a Senior Consultant at MayFair, specializing in investor relations and client communications. She brings extensive experience in private equity and financial services, supporting the firm's investor engagement, reporting, and relationship management efforts. Anna is known for her attention to detail, professionalism, and commitment to delivering exceptional service to investors.",
+          bio: "Anna Collins is the Investor Relations and Marketing Director at MayFair. She also serves as the firm's Sustainability Officer focused on adherence to ESG criteria. MayFair was motivated to clearly communicate their commitment to Environmental, Social and Governance (ESG) and create a policy in line with what has already been practiced at the firm. Working with the MayFair team and portfolio companies, Anna developed MayFair's ESG Policy. Together with the team at MayFair, she continually looks for ways for MayFair and the portfolio to uphold ESG best practices. Prior to joining MayFair in 2015, Anna worked at the New York location of the Garda Patent Gallery (Santa Fe, NM) as assistant to the Director and as a Sales Associate. Anna holds a BA from Wheaton College. Anna can be found on the weekends visiting favorite museum collections in New York or enjoying Central Park, of which she is a member of the Central Park Conservancy.",
+          dealWork: "Anna's work focuses on investor relations, marketing initiatives, and ESG policy development across all portfolio companies and investment activities."
         }
       ]
     },
@@ -95,10 +95,10 @@ export const leadershipData = {
       members: [
         {
           id: "6",
-          name: "Marguerite Milica",
+          name: "Anna Collins",
           title: "Strategy Consultant",
-          image: "/team/MargueriteMilica.jpg",
-          description: "Marguerite Milica is a Senior Consultant at MayFair, specializing in investor relations and client communications. She brings extensive experience in private equity and financial services, supporting the firm's investor engagement, reporting, and relationship management efforts. Marguerite is known for her attention to detail, professionalism, and commitment to delivering exceptional service to investors.",
+          image: "/team/AnnaCollins.png",
+          description: "Anna Collins is a Senior Consultant at MayFair, specializing in investor relations and client communications. She brings extensive experience in private equity and financial services, supporting the firm's investor engagement, reporting, and relationship management efforts. Anna is known for her attention to detail, professionalism, and commitment to delivering exceptional service to investors.",
           boardPositions: ["Board Observer at BioTech Innovations"]
         },
         {
@@ -173,9 +173,9 @@ export const leadershipData = {
         },
         {
           id: "22",
-          name: "Aleksandra Vyshnevetska",
+          name: "Jessica Melnick",
           title: "Operating Partner",
-          image: "/team/AleksandraVyshnevetska.jpg"
+          image: "/team/JessicaMelnick.png"
         }
       ]
     },

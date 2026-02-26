@@ -18,7 +18,7 @@ export default function SitemapPage() {
   ]
 
   const leadershipPages = [
-    'marguerite-milica',
+    'Anna-milica',
     'bryce',
     'clay',
     'diana-grace-dupont',
@@ -37,7 +37,7 @@ export default function SitemapPage() {
     'phil-kim',
     'salen',
     'serena-grace-monroe',
-    'aleksandra-vyshnevetska',
+    'Jessica-vyshnevetska',
     'tony'
   ]
 
@@ -72,7 +72,7 @@ export default function SitemapPage() {
             <div className="grid gap-4 md:grid-cols-2">
               {pages.map((page) => (
                 <div key={page.url} className="border-l-4 border-blue-500 pl-4">
-                  <Link 
+                  <Link
                     href={page.url}
                     className="text-lg font-medium text-blue-600 hover:text-blue-800 transition-colors"
                   >
@@ -89,7 +89,7 @@ export default function SitemapPage() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-6">Leadership Team</h2>
             <div className="grid gap-3 md:grid-cols-3 lg:grid-cols-4">
               {leadershipPages.map((slug) => (
-                <Link 
+                <Link
                   key={slug}
                   href={`/leadership/${slug}`}
                   className="text-blue-600 hover:text-blue-800 transition-colors capitalize"
@@ -105,7 +105,7 @@ export default function SitemapPage() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-6">News & Articles</h2>
             <div className="grid gap-3 md:grid-cols-3 lg:grid-cols-4">
               {newsPages.map((slug) => (
-                <Link 
+                <Link
                   key={slug}
                   href={`/news/${slug}`}
                   className="text-blue-600 hover:text-blue-800 transition-colors capitalize"
@@ -120,19 +120,19 @@ export default function SitemapPage() {
           <section className="border-t pt-8">
             <h2 className="text-xl font-semibold text-gray-900 mb-4">XML Sitemaps</h2>
             <div className="space-y-2">
-              <Link 
+              <Link
                 href="/sitemap.xml"
                 className="block text-blue-600 hover:text-blue-800 transition-colors"
               >
                 Main Sitemap (XML)
               </Link>
-              <Link 
+              <Link
                 href="/sitemap-news.xml"
                 className="block text-blue-600 hover:text-blue-800 transition-colors"
               >
                 News Sitemap (XML)
               </Link>
-              <Link 
+              <Link
                 href="/sitemap-leadership.xml"
                 className="block text-blue-600 hover:text-blue-800 transition-colors"
               >
