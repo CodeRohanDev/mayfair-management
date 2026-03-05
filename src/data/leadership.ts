@@ -167,7 +167,7 @@ export const leadershipData = {
       members: [
         {
           id: "21",
-          name: "Serena Grace Monroe",
+          name: "Emma Brooks",
           title: "Senior Operating Partner",
           image: "/team/SerenaGraceMonroe.png"
         },
