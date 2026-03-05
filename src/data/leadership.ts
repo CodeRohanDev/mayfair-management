@@ -53,16 +53,16 @@ export const leadershipData = {
           description: "Malone Easley is a Principal at MayFair, where he is responsible for leading investment analysis, due diligence, and market research across a range of sectors. He specializes in identifying and evaluating emerging growth opportunities, particularly within the technology and consumer industries. Malone is recognized for his analytical rigor, strategic insight, and collaborative approach to driving value for portfolio companies and investors.",
           boardPositions: ["Board Observer at Growth Ventures", "Advisory Board at StartupTech"]
         },
-        // {
-        //   id: "4",
-        //   name: "Diana Grace DuPont",
-        //   title: "Vice President of Business",
-        //   image: "/team/DianaGraceDupont.jpg",
-        //   description: "Diana Grace DuPont is the Vice President of Operations and a member of the Board of Directors at MayFair. She brings a wealth of operational expertise and leadership to the firm, overseeing key initiatives and supporting the growth and success of portfolio companies. Diana is known for her collaborative approach and her ability to drive strategic value across diverse teams and industries.",
-        //   bio: "Diana is a graduate of New York University, and her passions include the performing arts. She studied viola and composition at Juilliard Pre-College, and continued performing and writing classical music at Harvard, where she received her A.B. in Economics.",
-        //   boardPositions: ["Remedi8", "Schumacher", "Powerhouse", "AMPORTS", "Holley Performance Products", "True Temper Sports", "DHI Energy Service", "Nursery Supplies", "Desch Plantpak"],
-        //   dealWork: "Diana's deal experience includes Remedi8, Schumacher, Powerhouse, AMPORTS, Holley Performance Products, True Temper Sports, Wabash National, DHI Energy Service, Nursery Supplies and Desch Plantpak."
-        // },
+        {
+          id: "4",
+          name: "Emma Brooks",
+          title: "Vice President of Business",
+          image: "/team/SerenaGraceMonroe.png",
+          description: "Diana Grace DuPont is the Vice President of Operations and a member of the Board of Directors at MayFair. She brings a wealth of operational expertise and leadership to the firm, overseeing key initiatives and supporting the growth and success of portfolio companies. Diana is known for her collaborative approach and her ability to drive strategic value across diverse teams and industries.",
+          bio: "Diana is a graduate of New York University, and her passions include the performing arts. She studied viola and composition at Juilliard Pre-College, and continued performing and writing classical music at Harvard, where she received her A.B. in Economics.",
+          boardPositions: ["Remedi8", "Schumacher", "Powerhouse", "AMPORTS", "Holley Performance Products", "True Temper Sports", "DHI Energy Service", "Nursery Supplies", "Desch Plantpak"],
+          dealWork: "Diana's deal experience includes Remedi8, Schumacher, Powerhouse, AMPORTS, Holley Performance Products, True Temper Sports, Wabash National, DHI Energy Service, Nursery Supplies and Desch Plantpak."
+        },
 
         // {
         //   id: "5",
@@ -165,12 +165,6 @@ export const leadershipData = {
     seniorOperatingPartners: {
       title: "SENIOR OPERATING PARTNERS",
       members: [
-        {
-          id: "21",
-          name: "Emma Brooks",
-          title: "Senior Operating Partner",
-          image: "/team/SerenaGraceMonroe.png"
-        },
         {
           id: "22",
           name: "Jessica Melnick",

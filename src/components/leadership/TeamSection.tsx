@@ -6,9 +6,10 @@ interface TeamSectionProps {
   title: string;
   members: TeamMember[];
   columns: number;
+  disableClick?: boolean;
 }
 
-export default function TeamSection({ title, members, columns }: TeamSectionProps) {
+export default function TeamSection({ title, members, columns, disableClick = false }: TeamSectionProps) {
   const getGridCols = (cols: number) => {
     switch (cols) {
       case 2: return 'grid-cols-1 md:grid-cols-2 lg:grid-cols-2';
@@ -29,7 +30,7 @@ export default function TeamSection({ title, members, columns }: TeamSectionProp
 
         <div className={`grid ${getGridCols(columns)} gap-4 md:gap-6 px-4 md:px-0`}>
           {members.map((member) => (
-            <TeamMemberCard key={member.id} member={member} />
+            <TeamMemberCard key={member.id} member={member} disableClick={disableClick} />
           ))}
         </div>
       </Container>

@@ -61,6 +61,7 @@ export default function LeadershipPage() {
             title={leadershipData.sections.investmentCommittee.title}
             members={leadershipData.sections.investmentCommittee.members}
             columns={5}
+            disableClick={true}
           />
         </div>
 
@@ -69,6 +70,7 @@ export default function LeadershipPage() {
             title={leadershipData.sections.investmentProfessionals.title}
             members={leadershipData.sections.investmentProfessionals.members}
             columns={5}
+            disableClick={true}
           />
         </div>
 
@@ -77,6 +79,7 @@ export default function LeadershipPage() {
             title={leadershipData.sections.seniorOperatingPartners.title}
             members={leadershipData.sections.seniorOperatingPartners.members}
             columns={5}
+            disableClick={true}
           />
         </div>
 
